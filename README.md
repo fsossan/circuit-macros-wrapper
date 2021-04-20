@@ -36,7 +36,7 @@ open RLC.pdf
 If the compilation process does not return errors and you can see the PDF, then you are good to go!
 
 ### Practical use
-Whenever you have a m4 circuit to compile in a given folder, navigate in your terminal to that folder, and run
+In a terminal, navigate in the folder where you have a circuit m4-file to compile and run:
 ```
 make_circuit RLC.m4
 ```
