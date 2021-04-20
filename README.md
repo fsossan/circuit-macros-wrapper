@@ -26,14 +26,15 @@ sh install.sh
 * If you change the location of the folder after the installation, you need to re-run the installation script.
 
 ### Testing
-A demo circuit named `RLC.m4` is provided for testing in the folder `INSTALLATION_FOLDER/test/`. If this runs successfully, it will produce a PDF circuit diagram and a latex file to be included in a latex document. The latex file can be compiled standalone. Look at `make_circuit.sh` for more.
+A demo circuit named `RLC.m4` is provided for testing in the folder `INSTALLATION_FOLDER/test`. To test the functionalities, in a terminal give: 
 ```
 cd INSTALLATION_FOLDER
 cd test
 make_circuit RLC.m4
 open RLC.pdf
 ```
-If the compilation process does not return errors and you can see the PDF, then you are good to go!
+If the compilation process does not return errors and you can see the PDF, then you are good to go! In addition, make_circuit produces a latex file that can be included in a latex document. Look at `make_circuit.sh` for more.
+
 
 ### Practical use
 In a terminal, navigate in the folder where you have a circuit m4-file to compile and run:
