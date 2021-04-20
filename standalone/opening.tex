@@ -1,0 +1,20 @@
+\makeatletter
+\ifx\documentclass\@twoclasseserror
+\def\classok{}
+\else
+\documentclass{standalone}
+\usepackage{amsmath}
+
+\usepackage{tikz}
+
+
+\newlength\matlabfigurewidth
+\setlength{\matlabfigurewidth}{0.85\columnwidth}
+% Comment out the following two lines for sans-serif characters (Arial style)
+%\renewcommand{\familydefault}{\sfdefault}
+%\usepackage[cm]{sfmath}
+\begin{document}
+%\huge
+\fi
+\makeatother
+\scalebox{10}{
