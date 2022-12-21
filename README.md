@@ -21,7 +21,7 @@ A shell installation script verifies that requirements are satisfied and creates
 * Open a terminal and type:
 ```
 cd INSTALLATION_FOLDER
-sh install.sh
+sudo sh install.sh
 ```
 * If you change the location of the folder after the installation, you need to re-run the installation script.
 
